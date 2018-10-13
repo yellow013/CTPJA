@@ -1,12 +1,14 @@
+# Compiled class file
 *.class
-.svn/
-classes/
-generated-sources/
-generated-test-sources/
-test-classes/
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
 
 # Package Files #
-#*.jar
+*.jar
 *.war
 *.ear
 /target/
