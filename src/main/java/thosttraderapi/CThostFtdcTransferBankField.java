@@ -60,7 +60,7 @@ public class CThostFtdcTransferBankField extends StructObject {
 	public CThostFtdcTransferBankField() {
 		super();
 	}
-	public CThostFtdcTransferBankField(Pointer pointer) {
+	public CThostFtdcTransferBankField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

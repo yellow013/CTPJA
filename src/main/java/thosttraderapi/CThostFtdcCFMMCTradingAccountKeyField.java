@@ -69,7 +69,7 @@ public class CThostFtdcCFMMCTradingAccountKeyField extends StructObject {
 	public CThostFtdcCFMMCTradingAccountKeyField() {
 		super();
 	}
-	public CThostFtdcCFMMCTradingAccountKeyField(Pointer pointer) {
+	public CThostFtdcCFMMCTradingAccountKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

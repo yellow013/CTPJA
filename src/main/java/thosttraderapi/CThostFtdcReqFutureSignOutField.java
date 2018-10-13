@@ -253,7 +253,7 @@ public class CThostFtdcReqFutureSignOutField extends StructObject {
 	public CThostFtdcReqFutureSignOutField() {
 		super();
 	}
-	public CThostFtdcReqFutureSignOutField(Pointer pointer) {
+	public CThostFtdcReqFutureSignOutField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -532,7 +532,7 @@ public class CThostFtdcReqOpenAccountField extends StructObject {
 	public CThostFtdcReqOpenAccountField() {
 		super();
 	}
-	public CThostFtdcReqOpenAccountField(Pointer pointer) {
+	public CThostFtdcReqOpenAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

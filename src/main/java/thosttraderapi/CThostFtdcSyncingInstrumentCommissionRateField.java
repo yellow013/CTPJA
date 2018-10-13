@@ -162,7 +162,7 @@ public class CThostFtdcSyncingInstrumentCommissionRateField extends StructObject
 	public CThostFtdcSyncingInstrumentCommissionRateField() {
 		super();
 	}
-	public CThostFtdcSyncingInstrumentCommissionRateField(Pointer pointer) {
+	public CThostFtdcSyncingInstrumentCommissionRateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

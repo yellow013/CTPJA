@@ -60,7 +60,7 @@ public class CThostFtdcTransferQryBankReqField extends StructObject {
 	public CThostFtdcTransferQryBankReqField() {
 		super();
 	}
-	public CThostFtdcTransferQryBankReqField(Pointer pointer) {
+	public CThostFtdcTransferQryBankReqField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

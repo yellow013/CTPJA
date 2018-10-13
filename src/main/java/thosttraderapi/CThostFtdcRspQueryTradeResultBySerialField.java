@@ -306,7 +306,7 @@ public class CThostFtdcRspQueryTradeResultBySerialField extends StructObject {
 	public CThostFtdcRspQueryTradeResultBySerialField() {
 		super();
 	}
-	public CThostFtdcRspQueryTradeResultBySerialField(Pointer pointer) {
+	public CThostFtdcRspQueryTradeResultBySerialField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

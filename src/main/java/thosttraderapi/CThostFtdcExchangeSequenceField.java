@@ -59,7 +59,7 @@ public class CThostFtdcExchangeSequenceField extends StructObject {
 	public CThostFtdcExchangeSequenceField() {
 		super();
 	}
-	public CThostFtdcExchangeSequenceField(Pointer pointer) {
+	public CThostFtdcExchangeSequenceField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

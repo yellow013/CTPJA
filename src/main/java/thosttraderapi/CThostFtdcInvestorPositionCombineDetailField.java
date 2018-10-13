@@ -267,7 +267,7 @@ public class CThostFtdcInvestorPositionCombineDetailField extends StructObject {
 	public CThostFtdcInvestorPositionCombineDetailField() {
 		super();
 	}
-	public CThostFtdcInvestorPositionCombineDetailField(Pointer pointer) {
+	public CThostFtdcInvestorPositionCombineDetailField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

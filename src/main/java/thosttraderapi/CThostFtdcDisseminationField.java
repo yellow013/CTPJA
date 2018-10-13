@@ -49,7 +49,7 @@ public class CThostFtdcDisseminationField extends StructObject {
 	public CThostFtdcDisseminationField() {
 		super();
 	}
-	public CThostFtdcDisseminationField(Pointer pointer) {
+	public CThostFtdcDisseminationField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

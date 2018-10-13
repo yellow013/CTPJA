@@ -127,7 +127,7 @@ public class CThostFtdcBrokerWithdrawAlgorithmField extends StructObject {
 	public CThostFtdcBrokerWithdrawAlgorithmField() {
 		super();
 	}
-	public CThostFtdcBrokerWithdrawAlgorithmField(Pointer pointer) {
+	public CThostFtdcBrokerWithdrawAlgorithmField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

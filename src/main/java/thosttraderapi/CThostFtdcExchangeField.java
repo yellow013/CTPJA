@@ -51,7 +51,7 @@ public class CThostFtdcExchangeField extends StructObject {
 	public CThostFtdcExchangeField() {
 		super();
 	}
-	public CThostFtdcExchangeField(Pointer pointer) {
+	public CThostFtdcExchangeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

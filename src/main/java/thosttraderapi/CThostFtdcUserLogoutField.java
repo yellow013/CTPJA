@@ -34,7 +34,7 @@ public class CThostFtdcUserLogoutField extends StructObject {
 	public CThostFtdcUserLogoutField() {
 		super();
 	}
-	public CThostFtdcUserLogoutField(Pointer pointer) {
+	public CThostFtdcUserLogoutField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

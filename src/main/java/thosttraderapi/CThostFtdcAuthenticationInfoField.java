@@ -69,7 +69,7 @@ public class CThostFtdcAuthenticationInfoField extends StructObject {
 	public CThostFtdcAuthenticationInfoField() {
 		super();
 	}
-	public CThostFtdcAuthenticationInfoField(Pointer pointer) {
+	public CThostFtdcAuthenticationInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

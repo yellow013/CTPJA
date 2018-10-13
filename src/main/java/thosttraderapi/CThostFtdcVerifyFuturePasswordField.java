@@ -218,7 +218,7 @@ public class CThostFtdcVerifyFuturePasswordField extends StructObject {
 	public CThostFtdcVerifyFuturePasswordField() {
 		super();
 	}
-	public CThostFtdcVerifyFuturePasswordField(Pointer pointer) {
+	public CThostFtdcVerifyFuturePasswordField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

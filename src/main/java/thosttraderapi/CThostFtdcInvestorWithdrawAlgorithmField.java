@@ -68,7 +68,7 @@ public class CThostFtdcInvestorWithdrawAlgorithmField extends StructObject {
 	public CThostFtdcInvestorWithdrawAlgorithmField() {
 		super();
 	}
-	public CThostFtdcInvestorWithdrawAlgorithmField(Pointer pointer) {
+	public CThostFtdcInvestorWithdrawAlgorithmField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -95,7 +95,7 @@ public class CThostFtdcExchangeOrderInsertErrorField extends StructObject {
 	public CThostFtdcExchangeOrderInsertErrorField() {
 		super();
 	}
-	public CThostFtdcExchangeOrderInsertErrorField(Pointer pointer) {
+	public CThostFtdcExchangeOrderInsertErrorField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

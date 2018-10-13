@@ -112,7 +112,7 @@ public class CThostFtdcBrokerUserOTPParamField extends StructObject {
 	public CThostFtdcBrokerUserOTPParamField() {
 		super();
 	}
-	public CThostFtdcBrokerUserOTPParamField(Pointer pointer) {
+	public CThostFtdcBrokerUserOTPParamField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

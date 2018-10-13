@@ -149,7 +149,7 @@ public class CThostFtdcTransferHeaderField extends StructObject {
 	public CThostFtdcTransferHeaderField() {
 		super();
 	}
-	public CThostFtdcTransferHeaderField(Pointer pointer) {
+	public CThostFtdcTransferHeaderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

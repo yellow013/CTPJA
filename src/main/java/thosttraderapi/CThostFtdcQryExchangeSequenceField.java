@@ -25,7 +25,7 @@ public class CThostFtdcQryExchangeSequenceField extends StructObject {
 	public CThostFtdcQryExchangeSequenceField() {
 		super();
 	}
-	public CThostFtdcQryExchangeSequenceField(Pointer pointer) {
+	public CThostFtdcQryExchangeSequenceField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

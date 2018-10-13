@@ -68,7 +68,7 @@ public class CThostFtdcDiscountField extends StructObject {
 	public CThostFtdcDiscountField() {
 		super();
 	}
-	public CThostFtdcDiscountField(Pointer pointer) {
+	public CThostFtdcDiscountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -486,7 +486,7 @@ public class CThostFtdcRspQueryAccountField extends StructObject {
 	public CThostFtdcRspQueryAccountField() {
 		super();
 	}
-	public CThostFtdcRspQueryAccountField(Pointer pointer) {
+	public CThostFtdcRspQueryAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -42,7 +42,7 @@ public class CThostFtdcRspInfoField extends StructObject {
 	public CThostFtdcRspInfoField() {
 		super();
 	}
-	public CThostFtdcRspInfoField(Pointer pointer) {
+	public CThostFtdcRspInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

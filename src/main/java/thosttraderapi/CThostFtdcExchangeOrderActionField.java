@@ -200,7 +200,7 @@ public class CThostFtdcExchangeOrderActionField extends StructObject {
 	public CThostFtdcExchangeOrderActionField() {
 		super();
 	}
-	public CThostFtdcExchangeOrderActionField(Pointer pointer) {
+	public CThostFtdcExchangeOrderActionField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -25,7 +25,7 @@ public class CThostFtdcQryBrokerField extends StructObject {
 	public CThostFtdcQryBrokerField() {
 		super();
 	}
-	public CThostFtdcQryBrokerField(Pointer pointer) {
+	public CThostFtdcQryBrokerField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

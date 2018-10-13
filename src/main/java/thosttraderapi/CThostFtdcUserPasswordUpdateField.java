@@ -52,7 +52,7 @@ public class CThostFtdcUserPasswordUpdateField extends StructObject {
 	public CThostFtdcUserPasswordUpdateField() {
 		super();
 	}
-	public CThostFtdcUserPasswordUpdateField(Pointer pointer) {
+	public CThostFtdcUserPasswordUpdateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

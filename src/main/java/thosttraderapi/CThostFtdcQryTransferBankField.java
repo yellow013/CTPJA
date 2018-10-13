@@ -34,7 +34,7 @@ public class CThostFtdcQryTransferBankField extends StructObject {
 	public CThostFtdcQryTransferBankField() {
 		super();
 	}
-	public CThostFtdcQryTransferBankField(Pointer pointer) {
+	public CThostFtdcQryTransferBankField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

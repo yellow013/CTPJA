@@ -95,7 +95,7 @@ public class CThostFtdcDepositResultInformField extends StructObject {
 	public CThostFtdcDepositResultInformField() {
 		super();
 	}
-	public CThostFtdcDepositResultInformField(Pointer pointer) {
+	public CThostFtdcDepositResultInformField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

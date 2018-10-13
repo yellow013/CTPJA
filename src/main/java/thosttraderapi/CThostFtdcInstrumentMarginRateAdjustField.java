@@ -162,7 +162,7 @@ public class CThostFtdcInstrumentMarginRateAdjustField extends StructObject {
 	public CThostFtdcInstrumentMarginRateAdjustField() {
 		super();
 	}
-	public CThostFtdcInstrumentMarginRateAdjustField(Pointer pointer) {
+	public CThostFtdcInstrumentMarginRateAdjustField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

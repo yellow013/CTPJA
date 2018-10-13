@@ -51,7 +51,7 @@ public class CThostFtdcQryCombinationLegField extends StructObject {
 	public CThostFtdcQryCombinationLegField() {
 		super();
 	}
-	public CThostFtdcQryCombinationLegField(Pointer pointer) {
+	public CThostFtdcQryCombinationLegField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

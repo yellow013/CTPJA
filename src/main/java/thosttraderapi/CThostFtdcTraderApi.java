@@ -2,10 +2,9 @@ package thosttraderapi;
 import org.bridj.IntValuedEnum;
 import org.bridj.Pointer;
 import org.bridj.ann.Library;
-import org.bridj.ann.Name;
-import org.bridj.ann.Ptr;
 import org.bridj.ann.Virtual;
 import org.bridj.cpp.CPPObject;
+
 import thosttraderapi.ThosttraderapiLibrary.THOST_TE_RESUME_TYPE;
 /**
  * <i>native declaration : ctpapi/linux/ThostFtdcTraderApi.h:249</i><br>
@@ -590,7 +589,7 @@ public class CThostFtdcTraderApi extends CPPObject {
 	public CThostFtdcTraderApi() {
 		super();
 	}
-	public CThostFtdcTraderApi(Pointer pointer) {
+	public CThostFtdcTraderApi(Pointer<? extends CPPObject> pointer) {
 		super(pointer);
 	}
 }

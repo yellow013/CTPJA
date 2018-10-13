@@ -700,7 +700,7 @@ public class CThostFtdcRspRepealField extends StructObject {
 	public CThostFtdcRspRepealField() {
 		super();
 	}
-	public CThostFtdcRspRepealField(Pointer pointer) {
+	public CThostFtdcRspRepealField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

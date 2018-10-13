@@ -51,7 +51,7 @@ public class CThostFtdcCurrentTimeField extends StructObject {
 	public CThostFtdcCurrentTimeField() {
 		super();
 	}
-	public CThostFtdcCurrentTimeField(Pointer pointer) {
+	public CThostFtdcCurrentTimeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

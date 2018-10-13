@@ -68,7 +68,7 @@ public class CThostFtdcVerifyCustInfoField extends StructObject {
 	public CThostFtdcVerifyCustInfoField() {
 		super();
 	}
-	public CThostFtdcVerifyCustInfoField(Pointer pointer) {
+	public CThostFtdcVerifyCustInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

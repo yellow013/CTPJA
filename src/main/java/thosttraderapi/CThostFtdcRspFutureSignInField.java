@@ -297,7 +297,7 @@ public class CThostFtdcRspFutureSignInField extends StructObject {
 	public CThostFtdcRspFutureSignInField() {
 		super();
 	}
-	public CThostFtdcRspFutureSignInField(Pointer pointer) {
+	public CThostFtdcRspFutureSignInField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

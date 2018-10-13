@@ -25,7 +25,7 @@ public class CThostFtdcBrokerSyncField extends StructObject {
 	public CThostFtdcBrokerSyncField() {
 		super();
 	}
-	public CThostFtdcBrokerSyncField(Pointer pointer) {
+	public CThostFtdcBrokerSyncField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

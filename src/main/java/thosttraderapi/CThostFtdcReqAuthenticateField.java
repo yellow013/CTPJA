@@ -52,7 +52,7 @@ public class CThostFtdcReqAuthenticateField extends StructObject {
 	public CThostFtdcReqAuthenticateField() {
 		super();
 	}
-	public CThostFtdcReqAuthenticateField(Pointer pointer) {
+	public CThostFtdcReqAuthenticateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

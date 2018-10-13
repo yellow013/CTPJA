@@ -32,7 +32,7 @@ public class CThostFtdcQryFrontStatusField extends StructObject {
 	public CThostFtdcQryFrontStatusField() {
 		super();
 	}
-	public CThostFtdcQryFrontStatusField(Pointer pointer) {
+	public CThostFtdcQryFrontStatusField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

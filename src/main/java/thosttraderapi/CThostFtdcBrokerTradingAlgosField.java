@@ -94,7 +94,7 @@ public class CThostFtdcBrokerTradingAlgosField extends StructObject {
 	public CThostFtdcBrokerTradingAlgosField() {
 		super();
 	}
-	public CThostFtdcBrokerTradingAlgosField(Pointer pointer) {
+	public CThostFtdcBrokerTradingAlgosField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -128,7 +128,7 @@ public class CThostFtdcQueryMaxOrderVolumeWithPriceField extends StructObject {
 	public CThostFtdcQueryMaxOrderVolumeWithPriceField() {
 		super();
 	}
-	public CThostFtdcQueryMaxOrderVolumeWithPriceField(Pointer pointer) {
+	public CThostFtdcQueryMaxOrderVolumeWithPriceField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

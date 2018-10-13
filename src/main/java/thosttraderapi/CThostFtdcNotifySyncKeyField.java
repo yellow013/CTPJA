@@ -270,7 +270,7 @@ public class CThostFtdcNotifySyncKeyField extends StructObject {
 	public CThostFtdcNotifySyncKeyField() {
 		super();
 	}
-	public CThostFtdcNotifySyncKeyField(Pointer pointer) {
+	public CThostFtdcNotifySyncKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -34,7 +34,7 @@ public class CThostFtdcQryMarginModelField extends StructObject {
 	public CThostFtdcQryMarginModelField() {
 		super();
 	}
-	public CThostFtdcQryMarginModelField(Pointer pointer) {
+	public CThostFtdcQryMarginModelField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

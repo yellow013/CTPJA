@@ -502,7 +502,7 @@ public class CThostFtdcTradingAccountField extends StructObject {
 	public CThostFtdcTradingAccountField() {
 		super();
 	}
-	public CThostFtdcTradingAccountField(Pointer pointer) {
+	public CThostFtdcTradingAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

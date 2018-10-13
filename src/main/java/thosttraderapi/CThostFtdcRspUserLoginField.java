@@ -140,7 +140,7 @@ public class CThostFtdcRspUserLoginField extends StructObject {
 	public CThostFtdcRspUserLoginField() {
 		super();
 	}
-	public CThostFtdcRspUserLoginField(Pointer pointer) {
+	public CThostFtdcRspUserLoginField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

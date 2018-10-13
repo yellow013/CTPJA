@@ -86,7 +86,7 @@ public class CThostFtdcTransferBankToFutureRspField extends StructObject {
 	public CThostFtdcTransferBankToFutureRspField() {
 		super();
 	}
-	public CThostFtdcTransferBankToFutureRspField(Pointer pointer) {
+	public CThostFtdcTransferBankToFutureRspField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

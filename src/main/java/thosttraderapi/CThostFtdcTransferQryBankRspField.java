@@ -103,7 +103,7 @@ public class CThostFtdcTransferQryBankRspField extends StructObject {
 	public CThostFtdcTransferQryBankRspField() {
 		super();
 	}
-	public CThostFtdcTransferQryBankRspField(Pointer pointer) {
+	public CThostFtdcTransferQryBankRspField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

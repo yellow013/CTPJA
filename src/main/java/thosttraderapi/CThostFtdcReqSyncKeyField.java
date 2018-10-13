@@ -244,7 +244,7 @@ public class CThostFtdcReqSyncKeyField extends StructObject {
 	public CThostFtdcReqSyncKeyField() {
 		super();
 	}
-	public CThostFtdcReqSyncKeyField(Pointer pointer) {
+	public CThostFtdcReqSyncKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

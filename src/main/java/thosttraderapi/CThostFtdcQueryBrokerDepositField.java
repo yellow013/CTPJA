@@ -34,7 +34,7 @@ public class CThostFtdcQueryBrokerDepositField extends StructObject {
 	public CThostFtdcQueryBrokerDepositField() {
 		super();
 	}
-	public CThostFtdcQueryBrokerDepositField(Pointer pointer) {
+	public CThostFtdcQueryBrokerDepositField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -86,7 +86,7 @@ public class CThostFtdcSettlementInfoField extends StructObject {
 	public CThostFtdcSettlementInfoField() {
 		super();
 	}
-	public CThostFtdcSettlementInfoField(Pointer pointer) {
+	public CThostFtdcSettlementInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -69,7 +69,7 @@ public class CThostFtdcManualSyncBrokerUserOTPField extends StructObject {
 	public CThostFtdcManualSyncBrokerUserOTPField() {
 		super();
 	}
-	public CThostFtdcManualSyncBrokerUserOTPField(Pointer pointer) {
+	public CThostFtdcManualSyncBrokerUserOTPField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

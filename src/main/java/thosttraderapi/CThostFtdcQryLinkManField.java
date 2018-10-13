@@ -34,7 +34,7 @@ public class CThostFtdcQryLinkManField extends StructObject {
 	public CThostFtdcQryLinkManField() {
 		super();
 	}
-	public CThostFtdcQryLinkManField(Pointer pointer) {
+	public CThostFtdcQryLinkManField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

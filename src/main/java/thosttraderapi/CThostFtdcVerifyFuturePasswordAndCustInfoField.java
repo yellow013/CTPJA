@@ -86,7 +86,7 @@ public class CThostFtdcVerifyFuturePasswordAndCustInfoField extends StructObject
 	public CThostFtdcVerifyFuturePasswordAndCustInfoField() {
 		super();
 	}
-	public CThostFtdcVerifyFuturePasswordAndCustInfoField(Pointer pointer) {
+	public CThostFtdcVerifyFuturePasswordAndCustInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

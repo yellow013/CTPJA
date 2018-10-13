@@ -104,7 +104,7 @@ public class CThostFtdcExchangeOrderActionErrorField extends StructObject {
 	public CThostFtdcExchangeOrderActionErrorField() {
 		super();
 	}
-	public CThostFtdcExchangeOrderActionErrorField(Pointer pointer) {
+	public CThostFtdcExchangeOrderActionErrorField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

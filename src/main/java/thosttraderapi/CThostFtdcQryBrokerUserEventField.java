@@ -51,7 +51,7 @@ public class CThostFtdcQryBrokerUserEventField extends StructObject {
 	public CThostFtdcQryBrokerUserEventField() {
 		super();
 	}
-	public CThostFtdcQryBrokerUserEventField(Pointer pointer) {
+	public CThostFtdcQryBrokerUserEventField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

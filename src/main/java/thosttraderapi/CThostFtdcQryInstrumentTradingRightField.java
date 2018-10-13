@@ -43,7 +43,7 @@ public class CThostFtdcQryInstrumentTradingRightField extends StructObject {
 	public CThostFtdcQryInstrumentTradingRightField() {
 		super();
 	}
-	public CThostFtdcQryInstrumentTradingRightField(Pointer pointer) {
+	public CThostFtdcQryInstrumentTradingRightField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

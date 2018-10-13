@@ -52,7 +52,7 @@ public class CThostFtdcTradingAccountPasswordUpdateField extends StructObject {
 	public CThostFtdcTradingAccountPasswordUpdateField() {
 		super();
 	}
-	public CThostFtdcTradingAccountPasswordUpdateField(Pointer pointer) {
+	public CThostFtdcTradingAccountPasswordUpdateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

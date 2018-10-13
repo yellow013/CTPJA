@@ -105,7 +105,7 @@ public class CThostFtdcQryHisOrderField extends StructObject {
 	public CThostFtdcQryHisOrderField() {
 		super();
 	}
-	public CThostFtdcQryHisOrderField(Pointer pointer) {
+	public CThostFtdcQryHisOrderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

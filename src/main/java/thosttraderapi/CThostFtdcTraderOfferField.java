@@ -203,7 +203,7 @@ public class CThostFtdcTraderOfferField extends StructObject {
 	public CThostFtdcTraderOfferField() {
 		super();
 	}
-	public CThostFtdcTraderOfferField(Pointer pointer) {
+	public CThostFtdcTraderOfferField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

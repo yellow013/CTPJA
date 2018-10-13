@@ -43,7 +43,7 @@ public class CThostFtdcQryInvestorPositionDetailField extends StructObject {
 	public CThostFtdcQryInvestorPositionDetailField() {
 		super();
 	}
-	public CThostFtdcQryInvestorPositionDetailField(Pointer pointer) {
+	public CThostFtdcQryInvestorPositionDetailField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

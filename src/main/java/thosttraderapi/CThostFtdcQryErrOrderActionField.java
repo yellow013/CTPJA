@@ -34,7 +34,7 @@ public class CThostFtdcQryErrOrderActionField extends StructObject {
 	public CThostFtdcQryErrOrderActionField() {
 		super();
 	}
-	public CThostFtdcQryErrOrderActionField(Pointer pointer) {
+	public CThostFtdcQryErrOrderActionField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

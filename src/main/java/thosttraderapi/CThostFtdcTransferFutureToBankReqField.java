@@ -94,7 +94,7 @@ public class CThostFtdcTransferFutureToBankReqField extends StructObject {
 	public CThostFtdcTransferFutureToBankReqField() {
 		super();
 	}
-	public CThostFtdcTransferFutureToBankReqField(Pointer pointer) {
+	public CThostFtdcTransferFutureToBankReqField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

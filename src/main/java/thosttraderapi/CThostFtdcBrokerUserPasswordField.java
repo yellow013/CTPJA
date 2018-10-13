@@ -43,7 +43,7 @@ public class CThostFtdcBrokerUserPasswordField extends StructObject {
 	public CThostFtdcBrokerUserPasswordField() {
 		super();
 	}
-	public CThostFtdcBrokerUserPasswordField(Pointer pointer) {
+	public CThostFtdcBrokerUserPasswordField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

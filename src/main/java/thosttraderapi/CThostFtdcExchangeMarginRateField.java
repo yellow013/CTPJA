@@ -119,7 +119,7 @@ public class CThostFtdcExchangeMarginRateField extends StructObject {
 	public CThostFtdcExchangeMarginRateField() {
 		super();
 	}
-	public CThostFtdcExchangeMarginRateField(Pointer pointer) {
+	public CThostFtdcExchangeMarginRateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

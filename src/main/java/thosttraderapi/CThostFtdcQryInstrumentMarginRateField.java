@@ -60,7 +60,7 @@ public class CThostFtdcQryInstrumentMarginRateField extends StructObject {
 	public CThostFtdcQryInstrumentMarginRateField() {
 		super();
 	}
-	public CThostFtdcQryInstrumentMarginRateField(Pointer pointer) {
+	public CThostFtdcQryInstrumentMarginRateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

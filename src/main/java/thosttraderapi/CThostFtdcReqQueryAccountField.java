@@ -452,7 +452,7 @@ public class CThostFtdcReqQueryAccountField extends StructObject {
 	public CThostFtdcReqQueryAccountField() {
 		super();
 	}
-	public CThostFtdcReqQueryAccountField(Pointer pointer) {
+	public CThostFtdcReqQueryAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

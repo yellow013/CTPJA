@@ -43,7 +43,7 @@ public class CThostFtdcQryPartBrokerField extends StructObject {
 	public CThostFtdcQryPartBrokerField() {
 		super();
 	}
-	public CThostFtdcQryPartBrokerField(Pointer pointer) {
+	public CThostFtdcQryPartBrokerField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

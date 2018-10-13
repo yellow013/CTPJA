@@ -174,7 +174,7 @@ public class CThostFtdcTransferQryDetailRspField extends StructObject {
 	public CThostFtdcTransferQryDetailRspField() {
 		super();
 	}
-	public CThostFtdcTransferQryDetailRspField(Pointer pointer) {
+	public CThostFtdcTransferQryDetailRspField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

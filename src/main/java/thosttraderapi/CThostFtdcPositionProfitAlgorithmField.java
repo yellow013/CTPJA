@@ -60,7 +60,7 @@ public class CThostFtdcPositionProfitAlgorithmField extends StructObject {
 	public CThostFtdcPositionProfitAlgorithmField() {
 		super();
 	}
-	public CThostFtdcPositionProfitAlgorithmField(Pointer pointer) {
+	public CThostFtdcPositionProfitAlgorithmField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

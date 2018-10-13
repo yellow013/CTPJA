@@ -162,7 +162,7 @@ public class CThostFtdcSyncingInstrumentMarginRateField extends StructObject {
 	public CThostFtdcSyncingInstrumentMarginRateField() {
 		super();
 	}
-	public CThostFtdcSyncingInstrumentMarginRateField(Pointer pointer) {
+	public CThostFtdcSyncingInstrumentMarginRateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

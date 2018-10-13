@@ -43,7 +43,7 @@ public class CThostFtdcQrySettlementInfoField extends StructObject {
 	public CThostFtdcQrySettlementInfoField() {
 		super();
 	}
-	public CThostFtdcQrySettlementInfoField(Pointer pointer) {
+	public CThostFtdcQrySettlementInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

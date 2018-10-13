@@ -25,7 +25,7 @@ public class CThostFtdcQryNoticeField extends StructObject {
 	public CThostFtdcQryNoticeField() {
 		super();
 	}
-	public CThostFtdcQryNoticeField(Pointer pointer) {
+	public CThostFtdcQryNoticeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

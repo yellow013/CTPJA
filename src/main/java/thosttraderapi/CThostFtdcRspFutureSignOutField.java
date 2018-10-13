@@ -279,7 +279,7 @@ public class CThostFtdcRspFutureSignOutField extends StructObject {
 	public CThostFtdcRspFutureSignOutField() {
 		super();
 	}
-	public CThostFtdcRspFutureSignOutField(Pointer pointer) {
+	public CThostFtdcRspFutureSignOutField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

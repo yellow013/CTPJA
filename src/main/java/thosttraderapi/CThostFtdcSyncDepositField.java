@@ -77,7 +77,7 @@ public class CThostFtdcSyncDepositField extends StructObject {
 	public CThostFtdcSyncDepositField() {
 		super();
 	}
-	public CThostFtdcSyncDepositField(Pointer pointer) {
+	public CThostFtdcSyncDepositField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

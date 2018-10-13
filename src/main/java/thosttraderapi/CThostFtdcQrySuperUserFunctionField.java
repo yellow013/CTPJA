@@ -25,7 +25,7 @@ public class CThostFtdcQrySuperUserFunctionField extends StructObject {
 	public CThostFtdcQrySuperUserFunctionField() {
 		super();
 	}
-	public CThostFtdcQrySuperUserFunctionField(Pointer pointer) {
+	public CThostFtdcQrySuperUserFunctionField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

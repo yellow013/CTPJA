@@ -83,7 +83,7 @@ public class CThostFtdcMarketDataLastMatchField extends StructObject {
 	public CThostFtdcMarketDataLastMatchField() {
 		super();
 	}
-	public CThostFtdcMarketDataLastMatchField(Pointer pointer) {
+	public CThostFtdcMarketDataLastMatchField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -77,7 +77,7 @@ public class CThostFtdcInstrumentTradingRightField extends StructObject {
 	public CThostFtdcInstrumentTradingRightField() {
 		super();
 	}
-	public CThostFtdcInstrumentTradingRightField(Pointer pointer) {
+	public CThostFtdcInstrumentTradingRightField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

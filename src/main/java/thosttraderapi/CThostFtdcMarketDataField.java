@@ -350,7 +350,7 @@ public class CThostFtdcMarketDataField extends StructObject {
 	public CThostFtdcMarketDataField() {
 		super();
 	}
-	public CThostFtdcMarketDataField(Pointer pointer) {
+	public CThostFtdcMarketDataField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

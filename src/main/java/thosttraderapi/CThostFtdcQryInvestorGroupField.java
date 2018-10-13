@@ -25,7 +25,7 @@ public class CThostFtdcQryInvestorGroupField extends StructObject {
 	public CThostFtdcQryInvestorGroupField() {
 		super();
 	}
-	public CThostFtdcQryInvestorGroupField(Pointer pointer) {
+	public CThostFtdcQryInvestorGroupField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

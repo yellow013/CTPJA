@@ -25,7 +25,7 @@ public class CThostFtdcMarketDataExchangeField extends StructObject {
 	public CThostFtdcMarketDataExchangeField() {
 		super();
 	}
-	public CThostFtdcMarketDataExchangeField(Pointer pointer) {
+	public CThostFtdcMarketDataExchangeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

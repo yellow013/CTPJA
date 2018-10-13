@@ -512,7 +512,7 @@ public class CThostFtdcNotifyQueryAccountField extends StructObject {
 	public CThostFtdcNotifyQueryAccountField() {
 		super();
 	}
-	public CThostFtdcNotifyQueryAccountField(Pointer pointer) {
+	public CThostFtdcNotifyQueryAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

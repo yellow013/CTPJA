@@ -131,7 +131,7 @@ public class CThostFtdcUserSessionField extends StructObject {
 	public CThostFtdcUserSessionField() {
 		super();
 	}
-	public CThostFtdcUserSessionField(Pointer pointer) {
+	public CThostFtdcUserSessionField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

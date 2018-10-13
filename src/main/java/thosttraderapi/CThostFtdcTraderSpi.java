@@ -1,7 +1,6 @@
 package thosttraderapi;
 import org.bridj.Pointer;
 import org.bridj.ann.Library;
-import org.bridj.ann.Ptr;
 import org.bridj.ann.Virtual;
 import org.bridj.cpp.CPPObject;
 /**
@@ -806,7 +805,7 @@ public class CThostFtdcTraderSpi extends CPPObject {
 	public CThostFtdcTraderSpi() {
 		super();
 	}
-	public CThostFtdcTraderSpi(Pointer pointer) {
+	public CThostFtdcTraderSpi(Pointer<? extends CPPObject> pointer) {
 		super(pointer);
 	}
 }

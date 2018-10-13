@@ -271,7 +271,7 @@ public class CThostFtdcInputOrderActionField extends StructObject {
 	public CThostFtdcInputOrderActionField() {
 		super();
 	}
-	public CThostFtdcInputOrderActionField(Pointer pointer) {
+	public CThostFtdcInputOrderActionField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

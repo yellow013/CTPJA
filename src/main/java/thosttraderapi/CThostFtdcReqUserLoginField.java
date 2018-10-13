@@ -123,7 +123,7 @@ public class CThostFtdcReqUserLoginField extends StructObject {
 	public CThostFtdcReqUserLoginField() {
 		super();
 	}
-	public CThostFtdcReqUserLoginField(Pointer pointer) {
+	public CThostFtdcReqUserLoginField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

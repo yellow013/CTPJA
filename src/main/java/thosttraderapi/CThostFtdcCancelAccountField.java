@@ -558,7 +558,7 @@ public class CThostFtdcCancelAccountField extends StructObject {
 	public CThostFtdcCancelAccountField() {
 		super();
 	}
-	public CThostFtdcCancelAccountField(Pointer pointer) {
+	public CThostFtdcCancelAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

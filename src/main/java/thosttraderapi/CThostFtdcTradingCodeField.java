@@ -86,7 +86,7 @@ public class CThostFtdcTradingCodeField extends StructObject {
 	public CThostFtdcTradingCodeField() {
 		super();
 	}
-	public CThostFtdcTradingCodeField(Pointer pointer) {
+	public CThostFtdcTradingCodeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

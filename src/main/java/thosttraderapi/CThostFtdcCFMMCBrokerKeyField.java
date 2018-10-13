@@ -95,7 +95,7 @@ public class CThostFtdcCFMMCBrokerKeyField extends StructObject {
 	public CThostFtdcCFMMCBrokerKeyField() {
 		super();
 	}
-	public CThostFtdcCFMMCBrokerKeyField(Pointer pointer) {
+	public CThostFtdcCFMMCBrokerKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

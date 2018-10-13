@@ -382,7 +382,7 @@ public class CThostFtdcTradeField extends StructObject {
 	public CThostFtdcTradeField() {
 		super();
 	}
-	public CThostFtdcTradeField(Pointer pointer) {
+	public CThostFtdcTradeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

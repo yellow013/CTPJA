@@ -32,7 +32,7 @@ public class CThostFtdcMarketDataAveragePriceField extends StructObject {
 	public CThostFtdcMarketDataAveragePriceField() {
 		super();
 	}
-	public CThostFtdcMarketDataAveragePriceField(Pointer pointer) {
+	public CThostFtdcMarketDataAveragePriceField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

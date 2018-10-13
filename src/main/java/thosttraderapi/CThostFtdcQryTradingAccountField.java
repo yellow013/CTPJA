@@ -34,7 +34,7 @@ public class CThostFtdcQryTradingAccountField extends StructObject {
 	public CThostFtdcQryTradingAccountField() {
 		super();
 	}
-	public CThostFtdcQryTradingAccountField(Pointer pointer) {
+	public CThostFtdcQryTradingAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

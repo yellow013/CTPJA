@@ -174,7 +174,7 @@ public class CThostFtdcReqDayEndFileReadyField extends StructObject {
 	public CThostFtdcReqDayEndFileReadyField() {
 		super();
 	}
-	public CThostFtdcReqDayEndFileReadyField(Pointer pointer) {
+	public CThostFtdcReqDayEndFileReadyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

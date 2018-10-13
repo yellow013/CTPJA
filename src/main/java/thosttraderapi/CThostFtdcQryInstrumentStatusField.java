@@ -34,7 +34,7 @@ public class CThostFtdcQryInstrumentStatusField extends StructObject {
 	public CThostFtdcQryInstrumentStatusField() {
 		super();
 	}
-	public CThostFtdcQryInstrumentStatusField(Pointer pointer) {
+	public CThostFtdcQryInstrumentStatusField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

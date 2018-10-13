@@ -209,7 +209,7 @@ public class CThostFtdcAccountregisterField extends StructObject {
 	public CThostFtdcAccountregisterField() {
 		super();
 	}
-	public CThostFtdcAccountregisterField(Pointer pointer) {
+	public CThostFtdcAccountregisterField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

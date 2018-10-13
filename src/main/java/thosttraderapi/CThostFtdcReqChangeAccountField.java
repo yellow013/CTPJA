@@ -480,7 +480,7 @@ public class CThostFtdcReqChangeAccountField extends StructObject {
 	public CThostFtdcReqChangeAccountField() {
 		super();
 	}
-	public CThostFtdcReqChangeAccountField(Pointer pointer) {
+	public CThostFtdcReqChangeAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

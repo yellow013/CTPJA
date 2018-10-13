@@ -779,7 +779,7 @@ public class CThostFtdcErrorConditionalOrderField extends StructObject {
 	public CThostFtdcErrorConditionalOrderField() {
 		super();
 	}
-	public CThostFtdcErrorConditionalOrderField(Pointer pointer) {
+	public CThostFtdcErrorConditionalOrderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

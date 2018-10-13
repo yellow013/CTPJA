@@ -42,7 +42,7 @@ public class CThostFtdcCommPhaseField extends StructObject {
 	public CThostFtdcCommPhaseField() {
 		super();
 	}
-	public CThostFtdcCommPhaseField(Pointer pointer) {
+	public CThostFtdcCommPhaseField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

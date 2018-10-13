@@ -255,7 +255,7 @@ public class CThostFtdcExchangeMarginRateAdjustField extends StructObject {
 	public CThostFtdcExchangeMarginRateAdjustField() {
 		super();
 	}
-	public CThostFtdcExchangeMarginRateAdjustField(Pointer pointer) {
+	public CThostFtdcExchangeMarginRateAdjustField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -68,7 +68,7 @@ public class CThostFtdcUserRightField extends StructObject {
 	public CThostFtdcUserRightField() {
 		super();
 	}
-	public CThostFtdcUserRightField(Pointer pointer) {
+	public CThostFtdcUserRightField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

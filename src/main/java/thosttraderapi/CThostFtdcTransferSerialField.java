@@ -356,7 +356,7 @@ public class CThostFtdcTransferSerialField extends StructObject {
 	public CThostFtdcTransferSerialField() {
 		super();
 	}
-	public CThostFtdcTransferSerialField(Pointer pointer) {
+	public CThostFtdcTransferSerialField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

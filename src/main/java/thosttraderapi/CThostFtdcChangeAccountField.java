@@ -506,7 +506,7 @@ public class CThostFtdcChangeAccountField extends StructObject {
 	public CThostFtdcChangeAccountField() {
 		super();
 	}
-	public CThostFtdcChangeAccountField(Pointer pointer) {
+	public CThostFtdcChangeAccountField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

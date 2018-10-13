@@ -270,7 +270,7 @@ public class CThostFtdcRspSyncKeyField extends StructObject {
 	public CThostFtdcRspSyncKeyField() {
 		super();
 	}
-	public CThostFtdcRspSyncKeyField(Pointer pointer) {
+	public CThostFtdcRspSyncKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

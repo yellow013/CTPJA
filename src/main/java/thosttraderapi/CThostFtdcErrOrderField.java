@@ -361,7 +361,7 @@ public class CThostFtdcErrOrderField extends StructObject {
 	public CThostFtdcErrOrderField() {
 		super();
 	}
-	public CThostFtdcErrOrderField(Pointer pointer) {
+	public CThostFtdcErrOrderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

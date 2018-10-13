@@ -43,7 +43,7 @@ public class CThostFtdcRspAuthenticateField extends StructObject {
 	public CThostFtdcRspAuthenticateField() {
 		super();
 	}
-	public CThostFtdcRspAuthenticateField(Pointer pointer) {
+	public CThostFtdcRspAuthenticateField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

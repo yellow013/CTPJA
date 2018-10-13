@@ -151,7 +151,7 @@ public class CThostFtdcMarketDataStaticField extends StructObject {
 	public CThostFtdcMarketDataStaticField() {
 		super();
 	}
-	public CThostFtdcMarketDataStaticField(Pointer pointer) {
+	public CThostFtdcMarketDataStaticField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -149,7 +149,7 @@ public class CThostFtdcInvestorField extends StructObject {
 	public CThostFtdcInvestorField() {
 		super();
 	}
-	public CThostFtdcInvestorField(Pointer pointer) {
+	public CThostFtdcInvestorField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

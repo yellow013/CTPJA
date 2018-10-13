@@ -42,7 +42,7 @@ public class CThostFtdcSettlementRefField extends StructObject {
 	public CThostFtdcSettlementRefField() {
 		super();
 	}
-	public CThostFtdcSettlementRefField(Pointer pointer) {
+	public CThostFtdcSettlementRefField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

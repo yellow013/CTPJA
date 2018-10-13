@@ -43,7 +43,7 @@ public class CThostFtdcQryAccountregisterField extends StructObject {
 	public CThostFtdcQryAccountregisterField() {
 		super();
 	}
-	public CThostFtdcQryAccountregisterField(Pointer pointer) {
+	public CThostFtdcQryAccountregisterField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

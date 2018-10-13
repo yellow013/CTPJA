@@ -25,7 +25,7 @@ public class CThostFtdcTransferQryDetailReqField extends StructObject {
 	public CThostFtdcTransferQryDetailReqField() {
 		super();
 	}
-	public CThostFtdcTransferQryDetailReqField(Pointer pointer) {
+	public CThostFtdcTransferQryDetailReqField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

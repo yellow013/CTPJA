@@ -563,7 +563,7 @@ public class CThostFtdcReqTransferField extends StructObject {
 	public CThostFtdcReqTransferField() {
 		super();
 	}
-	public CThostFtdcReqTransferField(Pointer pointer) {
+	public CThostFtdcReqTransferField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

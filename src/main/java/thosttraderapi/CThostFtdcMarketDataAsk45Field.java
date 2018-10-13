@@ -83,7 +83,7 @@ public class CThostFtdcMarketDataAsk45Field extends StructObject {
 	public CThostFtdcMarketDataAsk45Field() {
 		super();
 	}
-	public CThostFtdcMarketDataAsk45Field(Pointer pointer) {
+	public CThostFtdcMarketDataAsk45Field(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

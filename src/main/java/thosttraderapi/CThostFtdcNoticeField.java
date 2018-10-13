@@ -43,7 +43,7 @@ public class CThostFtdcNoticeField extends StructObject {
 	public CThostFtdcNoticeField() {
 		super();
 	}
-	public CThostFtdcNoticeField(Pointer pointer) {
+	public CThostFtdcNoticeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

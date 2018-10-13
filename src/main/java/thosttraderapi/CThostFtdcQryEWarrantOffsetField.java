@@ -52,7 +52,7 @@ public class CThostFtdcQryEWarrantOffsetField extends StructObject {
 	public CThostFtdcQryEWarrantOffsetField() {
 		super();
 	}
-	public CThostFtdcQryEWarrantOffsetField(Pointer pointer) {
+	public CThostFtdcQryEWarrantOffsetField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

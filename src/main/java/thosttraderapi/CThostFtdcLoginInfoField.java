@@ -203,7 +203,7 @@ public class CThostFtdcLoginInfoField extends StructObject {
 	public CThostFtdcLoginInfoField() {
 		super();
 	}
-	public CThostFtdcLoginInfoField(Pointer pointer) {
+	public CThostFtdcLoginInfoField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

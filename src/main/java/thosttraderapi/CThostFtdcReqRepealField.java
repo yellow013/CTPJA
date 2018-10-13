@@ -674,7 +674,7 @@ public class CThostFtdcReqRepealField extends StructObject {
 	public CThostFtdcReqRepealField() {
 		super();
 	}
-	public CThostFtdcReqRepealField(Pointer pointer) {
+	public CThostFtdcReqRepealField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -51,7 +51,7 @@ public class CThostFtdcMarketDataUpdateTimeField extends StructObject {
 	public CThostFtdcMarketDataUpdateTimeField() {
 		super();
 	}
-	public CThostFtdcMarketDataUpdateTimeField(Pointer pointer) {
+	public CThostFtdcMarketDataUpdateTimeField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

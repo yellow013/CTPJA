@@ -589,7 +589,7 @@ public class CThostFtdcRspTransferField extends StructObject {
 	public CThostFtdcRspTransferField() {
 		super();
 	}
-	public CThostFtdcRspTransferField(Pointer pointer) {
+	public CThostFtdcRspTransferField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

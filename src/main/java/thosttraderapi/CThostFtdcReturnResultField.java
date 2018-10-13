@@ -34,7 +34,7 @@ public class CThostFtdcReturnResultField extends StructObject {
 	public CThostFtdcReturnResultField() {
 		super();
 	}
-	public CThostFtdcReturnResultField(Pointer pointer) {
+	public CThostFtdcReturnResultField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

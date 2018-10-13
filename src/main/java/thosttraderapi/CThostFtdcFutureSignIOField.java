@@ -253,7 +253,7 @@ public class CThostFtdcFutureSignIOField extends StructObject {
 	public CThostFtdcFutureSignIOField() {
 		super();
 	}
-	public CThostFtdcFutureSignIOField(Pointer pointer) {
+	public CThostFtdcFutureSignIOField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

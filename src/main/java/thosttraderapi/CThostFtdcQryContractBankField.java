@@ -43,7 +43,7 @@ public class CThostFtdcQryContractBankField extends StructObject {
 	public CThostFtdcQryContractBankField() {
 		super();
 	}
-	public CThostFtdcQryContractBankField(Pointer pointer) {
+	public CThostFtdcQryContractBankField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

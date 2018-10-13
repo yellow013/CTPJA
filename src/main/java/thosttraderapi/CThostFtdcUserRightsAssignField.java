@@ -51,7 +51,7 @@ public class CThostFtdcUserRightsAssignField extends StructObject {
 	public CThostFtdcUserRightsAssignField() {
 		super();
 	}
-	public CThostFtdcUserRightsAssignField(Pointer pointer) {
+	public CThostFtdcUserRightsAssignField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

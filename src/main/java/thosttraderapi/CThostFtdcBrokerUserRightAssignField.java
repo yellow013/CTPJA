@@ -59,7 +59,7 @@ public class CThostFtdcBrokerUserRightAssignField extends StructObject {
 	public CThostFtdcBrokerUserRightAssignField() {
 		super();
 	}
-	public CThostFtdcBrokerUserRightAssignField(Pointer pointer) {
+	public CThostFtdcBrokerUserRightAssignField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

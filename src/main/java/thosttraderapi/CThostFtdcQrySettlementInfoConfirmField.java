@@ -34,7 +34,7 @@ public class CThostFtdcQrySettlementInfoConfirmField extends StructObject {
 	public CThostFtdcQrySettlementInfoConfirmField() {
 		super();
 	}
-	public CThostFtdcQrySettlementInfoConfirmField(Pointer pointer) {
+	public CThostFtdcQrySettlementInfoConfirmField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

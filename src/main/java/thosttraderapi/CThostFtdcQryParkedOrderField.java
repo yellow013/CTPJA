@@ -52,7 +52,7 @@ public class CThostFtdcQryParkedOrderField extends StructObject {
 	public CThostFtdcQryParkedOrderField() {
 		super();
 	}
-	public CThostFtdcQryParkedOrderField(Pointer pointer) {
+	public CThostFtdcQryParkedOrderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

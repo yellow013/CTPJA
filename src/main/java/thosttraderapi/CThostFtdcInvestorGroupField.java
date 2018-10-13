@@ -43,7 +43,7 @@ public class CThostFtdcInvestorGroupField extends StructObject {
 	public CThostFtdcInvestorGroupField() {
 		super();
 	}
-	public CThostFtdcInvestorGroupField(Pointer pointer) {
+	public CThostFtdcInvestorGroupField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -25,7 +25,7 @@ public class CThostFtdcSpecificInstrumentField extends StructObject {
 	public CThostFtdcSpecificInstrumentField() {
 		super();
 	}
-	public CThostFtdcSpecificInstrumentField(Pointer pointer) {
+	public CThostFtdcSpecificInstrumentField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

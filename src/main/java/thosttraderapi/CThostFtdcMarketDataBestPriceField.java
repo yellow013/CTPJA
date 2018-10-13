@@ -83,7 +83,7 @@ public class CThostFtdcMarketDataBestPriceField extends StructObject {
 	public CThostFtdcMarketDataBestPriceField() {
 		super();
 	}
-	public CThostFtdcMarketDataBestPriceField(Pointer pointer) {
+	public CThostFtdcMarketDataBestPriceField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

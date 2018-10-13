@@ -34,7 +34,7 @@ public class CThostFtdcQryCFMMCTradingAccountKeyField extends StructObject {
 	public CThostFtdcQryCFMMCTradingAccountKeyField() {
 		super();
 	}
-	public CThostFtdcQryCFMMCTradingAccountKeyField(Pointer pointer) {
+	public CThostFtdcQryCFMMCTradingAccountKeyField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

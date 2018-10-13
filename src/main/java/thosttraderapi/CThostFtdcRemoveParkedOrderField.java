@@ -43,7 +43,7 @@ public class CThostFtdcRemoveParkedOrderField extends StructObject {
 	public CThostFtdcRemoveParkedOrderField() {
 		super();
 	}
-	public CThostFtdcRemoveParkedOrderField(Pointer pointer) {
+	public CThostFtdcRemoveParkedOrderField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

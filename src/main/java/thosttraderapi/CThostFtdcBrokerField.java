@@ -60,7 +60,7 @@ public class CThostFtdcBrokerField extends StructObject {
 	public CThostFtdcBrokerField() {
 		super();
 	}
-	public CThostFtdcBrokerField(Pointer pointer) {
+	public CThostFtdcBrokerField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

@@ -61,7 +61,7 @@ public class CThostFtdcUserIPField extends StructObject {
 	public CThostFtdcUserIPField() {
 		super();
 	}
-	public CThostFtdcUserIPField(Pointer pointer) {
+	public CThostFtdcUserIPField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

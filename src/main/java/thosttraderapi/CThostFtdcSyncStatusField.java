@@ -42,7 +42,7 @@ public class CThostFtdcSyncStatusField extends StructObject {
 	public CThostFtdcSyncStatusField() {
 		super();
 	}
-	public CThostFtdcSyncStatusField(Pointer pointer) {
+	public CThostFtdcSyncStatusField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

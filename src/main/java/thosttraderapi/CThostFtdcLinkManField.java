@@ -130,7 +130,7 @@ public class CThostFtdcLinkManField extends StructObject {
 	public CThostFtdcLinkManField() {
 		super();
 	}
-	public CThostFtdcLinkManField(Pointer pointer) {
+	public CThostFtdcLinkManField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

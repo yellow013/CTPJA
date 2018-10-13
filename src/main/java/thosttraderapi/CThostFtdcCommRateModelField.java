@@ -43,7 +43,7 @@ public class CThostFtdcCommRateModelField extends StructObject {
 	public CThostFtdcCommRateModelField() {
 		super();
 	}
-	public CThostFtdcCommRateModelField(Pointer pointer) {
+	public CThostFtdcCommRateModelField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

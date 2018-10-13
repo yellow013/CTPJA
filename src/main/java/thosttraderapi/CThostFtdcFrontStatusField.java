@@ -68,7 +68,7 @@ public class CThostFtdcFrontStatusField extends StructObject {
 	public CThostFtdcFrontStatusField() {
 		super();
 	}
-	public CThostFtdcFrontStatusField(Pointer pointer) {
+	public CThostFtdcFrontStatusField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }

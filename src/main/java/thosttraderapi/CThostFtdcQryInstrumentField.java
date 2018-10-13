@@ -52,7 +52,7 @@ public class CThostFtdcQryInstrumentField extends StructObject {
 	public CThostFtdcQryInstrumentField() {
 		super();
 	}
-	public CThostFtdcQryInstrumentField(Pointer pointer) {
+	public CThostFtdcQryInstrumentField(Pointer<? extends StructObject> pointer) {
 		super(pointer);
 	}
 }
